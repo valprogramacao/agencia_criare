@@ -21,12 +21,19 @@
                     <img src="img/CRIARE-LOGO.png" alt="logo">
                 </a>
                 <ul class="ul">
+
                     <a href="index.html">Home</a>
                     <a href="sobre.html">Sobre</a>
                     <a href="servicos.html">Serviços</a>
                     <a href="contato.html" class="btn">Contato</a>
-
+                    <div class="close-icon" onclick="closeMenu()">
+                        <i class="fa-solid fa-circle-xmark"></i>
+                    </div>
                 </ul>
+                <!-- menu-sanduiche -->
+                <div class="menu-icon" onclick="openMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
             </nav>
             <section class="banner">
                 <div class="banner-text">
@@ -130,8 +137,50 @@
 
      </section>
           <!-- fim depoimentos -->
+           <!-- clientes -->
+           <section class="clientes">
+            <div class="container">
+                <h3>Nossos Clientes</h3>
+                <p>Temos orgulho de trabalhar com uma variedade de clientes, desde startups inovadoras até empresas estabelecidas. Aqui estão alguns dos nossos clientes satisfeitos:</p>
+                <div class="clientes-logos">
+                    <img src="img/apple.png" alt="apple">
+                    <img src="img/microsoft.png" alt="microsoft">
+                    <img src="img/google.png" alt="google"> 
+                    <img src="img/slack.png" alt="slack">
+            </div>
+           </section>
+           <!-- fim clientes -->
+            <!--  section faça mais -->
+    <section class="faca-mais">
+        <!-- container faça mais -->
+        <div class="container">
+            <div class="faca-mais-text">
+                <h3>Toda a segurança para você não se preocupar com  nada</h3>
+                <p>Nossa plataforma oferece uma proteção completa, garantindo que seus dados estejam sempre seguros e acessíveis.</p>
+                <a href="contato.html" class="btn animate-btn">Entre em Contato</a>
+            </div>
+            <div class="faca-mais-img">
+                <img src="img/3.png" alt="">
+            </div>
+        </div>
+        <!-- fim container faça mais -->
+    </section>
+    <!-- fim  section faça mais -->
+     <!-- footer -->
+      <footer class="footer">
+        <div class="container">
+            <div class="links">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <p>Desenvolvido por @ValProgramação</p>
+        </div>
 
-
+      </footer>
+           <!--  fim footer -->
+        <script src="js/main.js"></script>
 
 </body>
 
